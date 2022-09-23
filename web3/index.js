@@ -82,28 +82,28 @@ async function connect() {
     // },
     walletconnect: {
       package: window.WalletConnectProvider.default,
-      // options: {
-      //   infuraId: "0a5f720ee09a409cbbbc4d9bb3d549be",
-      //   network: "binance", // here
-      //   rpc: {
-      //     56: "https://bsc-dataseed.binance.org/",
-      //   },
-      //   qrcode: true,
-      //   qrcodeModalOptions: {
-      //     mobileLinks: ["metamask", "trust"],
-      //   },
-      // },
       options: {
         infuraId: "0a5f720ee09a409cbbbc4d9bb3d549be",
-        network: "binance-testnet", // here
+        network: "binance", // here
         rpc: {
-          97: "https://data-seed-prebsc-1-s1.binance.org:8545/",
+          56: "https://bsc-dataseed.binance.org/",
         },
         qrcode: true,
         qrcodeModalOptions: {
           mobileLinks: ["metamask", "trust"],
         },
       },
+      //options: {
+      //  infuraId: "0a5f720ee09a409cbbbc4d9bb3d549be",
+      //  network: "binance-testnet", // here
+      //  rpc: {
+      //    97: "https://data-seed-prebsc-1-s1.binance.org:8545/",
+      //  },
+      //  qrcode: true,
+      //  qrcodeModalOptions: {
+      //    mobileLinks: ["metamask", "trust"],
+      //  },
+      //},
     },
   };
 
